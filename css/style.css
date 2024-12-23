@@ -181,8 +181,11 @@
   .da{
     margin-top:20px;
   }
-.daa{
-    font-size: 10px;
+  .daaa{
+    font-size: 14px !important;
+  }
+  #about h5{
+    font-size: 14px !important;
   }
 }
 
