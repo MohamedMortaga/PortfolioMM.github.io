@@ -1,0 +1,246 @@
+.logo {
+  width: 90px;
+  height: 75px;
+}
+.body {
+  font-family: "Merriweather", serif;
+}
+.navbar {
+  background-color: rgb(0, 0, 0) !important;
+}
+.nav-link {
+  font-size: 18px !important;
+}
+.nav-link:hover {
+  color: rgb(202, 124, 124) !important;
+}
+.nav-link:focus {
+  color: rgb(122, 40, 40) !important;
+}
+
+.navbar-brand {
+  font-size: 25px !important;
+  font-family: "Edu AU VIC WA NT Arrows", serif;
+}
+.home {
+  background-image: url(../images/bg2.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.home1 {
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+.h {
+  font-family: "Edu AU VIC WA NT Arrows", serif;
+}
+.h::after {
+  content: "|";
+  animation-name: do;
+  animation-duration: 5.5s;
+  animation-iteration-count: infinite;
+}
+@keyframes do {
+  0% {
+    content: "|";
+  }
+  3% {
+    content: "o|";
+  }
+  6% {
+    content: "or|";
+  }
+  9% {
+    content: "orn|";
+  }
+  12% {
+    content: "ornt|";
+  }
+  15% {
+    content: "ornte|";
+  }
+  18% {
+    content: "ornten|";
+  }
+  21% {
+    content: "orntend |";
+  }
+  23% {
+    content: "orntend D|";
+  }
+  26% {
+    content: "orntend De|";
+  }
+  29% {
+    content: "orntend Dev|";
+  }
+  32% {
+    content: "orntend Deve|";
+  }
+  35% {
+    content: "orntend Devel|";
+  }
+  38% {
+    content: "orntend Develo|";
+  }
+  41% {
+    content: "orntend Develop|";
+  }
+  44% {
+    content: "orntend Develope|";
+  }
+  47% {
+    content: "orntend Developer|";
+  }
+  50% {
+    content: "orntend Develope|";
+  }
+  53% {
+    content: "orntend Develop|";
+  }
+  56% {
+    content: "orntend Develo|";
+  }
+  59% {
+    content: "orntend Devel|";
+  }
+  62% {
+    content: "orntend Deve|";
+  }
+  65% {
+    content: "orntend Deve|";
+  }
+  68% {
+    content: "orntend Dev|";
+  }
+  71% {
+    content: "orntend De|";
+  }
+  74% {
+    content: "orntend D|";
+  }
+  77% {
+    content: "orntend |";
+  }
+  80% {
+    content: "orntend|";
+  }
+  83% {
+    content: "ornten|";
+  }
+  86% {
+    content: "ornte|";
+  }
+  89% {
+    content: "ornt |";
+  }
+  92% {
+    content: "orn|";
+  }
+  95% {
+    content: "or|";
+  }
+  98% {
+    content: "o|";
+  }
+  100% {
+    content: "|";
+  }
+}
+.s2 {
+  background-color: rgb(241, 236, 236);
+}
+.m {
+  border: solid 3px rgb(0, 0, 0);
+}
+.m img {
+  width: 100%;
+  height: 100%;
+  border: 2px solid rgb(222, 102, 102);
+  border-radius: 25px !important;
+}
+
+.carousel-item {
+  width: 100% !important;
+  height: 500px;
+  object-fit: contain;
+}
+@media screen and (max-width: 768px) {
+  .carousel-item {
+    width: 100%;
+    height: 200px;
+    border-radius: 25% !important;
+  }
+}
+
+.m p {
+  font-size: 20px;
+  text-align: justify;
+  line-height: 1.6;
+}
+.home2 h1 {
+  font-size: 70px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.s3 {
+  background-color: rgb(241, 236, 236);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+
+}
+.s3 h5 {
+  color: black;
+  font-size: 30px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: black;
+  border-radius: 50%;
+  width: 90px !important;
+  height: 90px !important;
+}
+@media screen and (max-width: 768px) {
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    border-radius: 50%; 
+    width: 50px !important;
+    height: 50px !important;
+  }
+}
+.s4 {
+  background-color: rgb(241, 236, 236);
+}
+.col input , .col textarea {
+  border: 1px solid rgb(202, 200, 200);
+  width: 80%;
+  height: 50px;
+  border-radius: 4px;
+}
+label{
+  font-size: 19px;
+}
+.col textarea {
+  height: 100px;
+  resize: none;
+}
+@media screen and (max-width: 768px) {
+  .a {
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    
+  } 
+}
+footer {
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
