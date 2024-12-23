@@ -166,7 +166,9 @@
   border: 2px solid rgb(222, 102, 102);
   border-radius: 25px !important;
 }
-
+label{
+  margin-left: 25px;
+}
 .carousel-item {
   width: 100% !important;
   height: 500px;
@@ -186,6 +188,9 @@
   }
   #about h5{
     font-size: 14px !important;
+  }
+  label{
+    margin-right: 25px;
   }
 }
 
