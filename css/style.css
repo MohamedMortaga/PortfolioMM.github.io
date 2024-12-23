@@ -178,6 +178,10 @@
     height: 200px;
     border-radius: 25% !important;
   }
+  .da{
+    margin-top:5px;
+  }
+
 }
 
 .m p {
@@ -214,6 +218,9 @@
     border-radius: 50%; 
     width: 50px !important;
     height: 50px !important;
+  }
+  .carousel-indicators{
+    padding: 0px;
   }
 }
 .s4 {
