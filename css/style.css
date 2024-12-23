@@ -52,100 +52,100 @@
     content: "|";
   }
   3% {
-    content: "o|";
+    content: "r|";
   }
   6% {
-    content: "or|";
+    content: "ro|";
   }
   9% {
-    content: "orn|";
+    content: "ron|";
   }
   12% {
-    content: "ornt|";
+    content: "ront|";
   }
   15% {
-    content: "ornte|";
+    content: "ronte|";
   }
   18% {
-    content: "ornten|";
+    content: "ronten|";
   }
   21% {
-    content: "orntend |";
+    content: "rontend |";
   }
   23% {
-    content: "orntend D|";
+    content: "rontend D|";
   }
   26% {
-    content: "orntend De|";
+    content: "rontend De|";
   }
   29% {
-    content: "orntend Dev|";
+    content: "rontend Dev|";
   }
   32% {
-    content: "orntend Deve|";
+    content: "rontend Deve|";
   }
   35% {
-    content: "orntend Devel|";
+    content: "rontend Devel|";
   }
   38% {
-    content: "orntend Develo|";
+    content: "rontend Develo|";
   }
   41% {
-    content: "orntend Develop|";
+    content: "rontend Develop|";
   }
   44% {
-    content: "orntend Develope|";
+    content: "rontend Develope|";
   }
   47% {
-    content: "orntend Developer|";
+    content: "rontend Developer|";
   }
   50% {
-    content: "orntend Develope|";
+    content: "rontend Develope|";
   }
   53% {
-    content: "orntend Develop|";
+    content: "rontend Develop|";
   }
   56% {
-    content: "orntend Develo|";
+    content: "rontend Develo|";
   }
   59% {
-    content: "orntend Devel|";
+    content: "rontend Devel|";
   }
   62% {
-    content: "orntend Deve|";
+    content: "rontend Deve|";
   }
   65% {
-    content: "orntend Deve|";
+    content: "rontend Deve|";
   }
   68% {
-    content: "orntend Dev|";
+    content: "rontend Dev|";
   }
   71% {
-    content: "orntend De|";
+    content: "rontend De|";
   }
   74% {
-    content: "orntend D|";
+    content: "rontend D|";
   }
   77% {
-    content: "orntend |";
+    content: "rontend |";
   }
   80% {
-    content: "orntend|";
+    content: "rontend|";
   }
   83% {
-    content: "ornten|";
+    content: "ronten|";
   }
   86% {
-    content: "ornte|";
+    content: "ronte|";
   }
   89% {
-    content: "ornt |";
+    content: "ront |";
   }
   92% {
-    content: "orn|";
+    content: "ron|";
   }
   95% {
-    content: "or|";
+    content: "ro|";
   }
   98% {
     content: "o|";
@@ -218,9 +218,6 @@
     border-radius: 50%; 
     width: 50px !important;
     height: 50px !important;
-  }
-  .carousel-indicators{
-    padding: 0px;
   }
 }
 .s4 {
