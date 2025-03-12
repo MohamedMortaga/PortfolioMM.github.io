@@ -283,68 +283,79 @@
         <div class="container">
           <div class="a row align-items-center">
             <div class="col d-flex justify-content-center">
-              <img class="w-100 h-100" src="./images/s3.jpg" />
+              <img style="margin: 10px;" class="w-100 h-100" src="./images/s3.jpg" />
             </div>
             <div class="col">
               <form>
-                <div class="d-flex flex-row gap-1 mt-5">
-                  <label for="name">Name</label>
-                  <input
-                    class="ms-auto"
-                    type="text"
-                    id="name"
-                    name="name"
-                    placeholder="Your Name"
-                    required
-                    min="3"
-                    max="30"
-                  />
-                </div>
-
-                <div class="mt-5 d-flex flex-row gap-3">
-                  <label for="mail">Email</label>
-                  <input
-                    class="ms-auto"
-                    type="email"
-                    id="email"
-                    name="email"
-                    placeholder="Your Email"
-                    required
-                    min="3"
-                    max="30"
-                  />
-                </div>
-
-                <div class="mt-5 d-flex flex-row gap-3">
-                  <label for="subject">Subject</label>
-                  <input
-                    class="ms-auto"
-                    type="text"
-                    id="subject"
-                    name="subject"
-                    placeholder="Subject"
-                    required
-                    min="3"
-                    max="30"
-                  />
-                </div>
-
-                <div class="mt-5 d-flex flex-row gap-3">
-                  <label for="message">Message</label>
-                  <textarea
-                    class="ms-auto"
-                    id="message"
-                    name="message"
-                    placeholder="Message"
-                    required
-                    maxlength="300"
-                    style="resize: none"
-                  ></textarea>
-                </div>
-
-                <div class="text-center mt-5">
-                  <button class="btn btn-dark w-25" type="submit">Send</button>
-                </div>
+                  <table>
+                    <tr>
+                      <td>
+                        <label for="name">Name :</label>
+                      </td>
+                      <td>
+                        <input
+                          type="text"
+                          id="name"
+                          name="name"
+                          placeholder="Your Name"
+                          required
+                          min="3"
+                          max="30"
+                        />
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <label for="email">Email :</label>
+                      </td>
+                      <td>
+                        <input
+                          type="email"
+                          id="email"
+                          name="email"
+                          placeholder="Your Email"
+                          required
+                          min="3"
+                          max="30"
+                        />
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <label for="subject">Subject :</label>
+                      </td>
+                      <td>
+                        <input
+                          type="text"
+                          id="subject"
+                          name="subject"
+                          placeholder="Subject"
+                          required
+                          min="3"
+                          max="30"
+                        />
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <label for="message">Message :</label>
+                      </td>
+                      <td>
+                        <textarea
+                          cols="50"
+                          rows="30"
+                          id="message"
+                          name="message"
+                          placeholder="Message"
+                          required
+                          maxlength="300"
+                          style="resize: none"
+                        ></textarea>
+                      </td>
+                    </tr>
+                  </table>
+              
+               
               </form>
             </div>
           </div>
