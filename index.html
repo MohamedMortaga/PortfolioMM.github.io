@@ -280,84 +280,78 @@
     <section id="contact" class="s4">
       <div class="container-xxl py-5 border-top border-1 border-dark">
         <h1>Contact Us :</h1>
+        <h6 class="text-danger d-flex justify-content-center gap-2">
+          <i class="fa-solid fa-face-smile-wink"></i>Iam Happy To Hear From You But That Form is UI/UX Only So If You Want To Contact Me Please Use My Email In Footer
+        </h6>
         <div class="container">
           <div class="a row align-items-center">
             <div class="col d-flex justify-content-center">
               <img style="margin: 10px;" class="w-100 h-100" src="./images/s3.jpg" />
             </div>
             <div class="col">
-              <form 
-              class="col-12 d-flex flex-column justify-content-center text-dark mb-5 mt-5" 
-              action="https://formsubmit.co/mohamedmortagalol@gmail.com" 
-              method="POST"
-              >
-             
-                  <input type="hidden" name="_captcha" value="false">
-                  <input type="hidden" name="_next" value="?submit=success">
-                  <input type="hidden" name="_template" value="box">
-                  
-                  <div class="form-floating w-100 mb-3">
-                      <input
-                          type="text"
-                          class="form-control w-100"
-                          id="name"
-                          name="name"
-                          placeholder="Your Name"
-                          required
-                          minlength="3"
-                          maxlength="30"
-                      />
-                      <label for="name">Name</label>
-                  </div>
-          
-                  <div class="form-floating w-100 mb-3">
-                      <input
-                          type="email"
-                          class="form-control w-100"
-                          id="email"
-                          name="email"
-                          placeholder="Your Email"
-                          required
-                          minlength="3"
-                          maxlength="30"
-                      />
-                      <label for="email">Email</label>
-                  </div>
-          
-                  <div class="form-floating w-100 mb-3">
-                      <input
-                          type="text"
-                          class="form-control w-100"
-                          id="subject"
-                          name="subject"
-                          placeholder="Subject"
-                          required
-                          minlength="3"
-                          maxlength="30"
-                      />
-                      <label for="subject">Subject</label>
-                  </div>
-          
-                  <div class="form-floating w-100 mb-3">
-                      <textarea
-                          class="form-control w-100"
-                          id="message"
-                          name="message"
-                          placeholder="Message"
-                          required
-                          maxlength="300"
-                          style="height: 100px; resize: none"
-                      ></textarea>
-                      <label for="message">Message</label>
-                  </div>
-          
-                  <button 
-                      style="background-color: green; color: white; margin: 10px;" 
-                      class="btn w-25 m-auto" 
-                      type="submit"
-                  >
-                      Send
-                  </button>
+              <form class="col-12 d-flex flex-column justify-content-center text-dark  mb-5 mt-5">
+                <div class="form-floating w-100 mb-3">
+                  <input
+                    type="text"
+                    class="form-control w-100"
+                    id="name"
+                    name="name"
+                    placeholder="Your Name"
+                    required
+                    minlength="3"
+                    maxlength="30"
+                  />
+                  <label for="name">Name</label>
+                </div>
+              
+                <div class="form-floating w-100 mb-3">
+                  <input
+                    type="email"
+                    class="form-control w-100"
+                    id="email"
+                    name="email"
+                    placeholder="Your Email"
+                    required
+                    minlength="3"
+                    maxlength="30"
+                  />
+                  <label for="email">Email</label>
+                </div>
+              
+                <div class="form-floating w-100 mb-3">
+                  <input
+                    type="text"
+                    class="form-control w-100"
+                    id="subject"
+                    name="subject"
+                    placeholder="Subject"
+                    required
+                    minlength="3"
+                    maxlength="30"
+                  />
+                  <label for="subject">Subject</label>
+                </div>
+              
+                <div class="form-floating w-100 mb-3">
+                  <textarea
+                    class="form-control w-100"
+                    id="message"
+                    name="message"
+                    placeholder="Message"
+                    required
+                    maxlength="300"
+                    style="height: 100px; resize: none"
+                  ></textarea>
+                  <label for="message">Message</label>
+                </div>
+              
+                <button 
+                  style="background-color: green; color: white; margin: 10px;" 
+                  class="btn w-25 m-auto" 
+                  type="submit"
+                >
+                  Send
+                </button>
               </form>
             </div>
           </div>
@@ -404,11 +398,5 @@
 
     <script src="./js/bootstrap.bundle.min.js"></script>
     <script src="./js/jsf.js"></script>
-    <script>
-      if (window.location.search.includes('submit=success')) {
-          document.getElementById('thank-you').style.display = 'block';
-          document.querySelector('form').style.display = 'none';
-      }
-  </script>
   </body>
 </html>
