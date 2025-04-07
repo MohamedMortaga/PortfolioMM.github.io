@@ -13,7 +13,6 @@
       href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,400;1,100;1,300;1,400&family=Yuji+Mai&display=swap"
       rel="stylesheet"
     />
-    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
     <title>Portfolio</title>
   </head>
   <body class="body">
@@ -175,16 +174,11 @@
             ></button>
           </div>
           <div class="carousel-inner mb-5">
-            <h6 class="text-warning d-flex justify-content-center gap-2">
-              <i class="fa-solid fa-face-smile-wink"></i>Click On Picture For
-              Details
-            </h6>
             <div
               class="carousel-item active border border-2 border-dark"
               data-bs-toggle="modal"
               data-bs-target="#exampleModal"
               data-title="DIS Memeber Profile Website"
-              data-body="it is a website for the memebers of the DIS company employees that shows their information,it is recently working on it"
             >
               <img src="./images/p2.png" class="d-block w-100 h-100" alt="p1" />
             </div>
@@ -193,7 +187,6 @@
               data-bs-toggle="modal"
               data-bs-target="#exampleModal"
               data-title="EL Modon Website"
-              data-body="it is website for the EL Modon company that shows their projects and services and easy way to contact them with summary that website include 6 pages ,it is recently working on it"
             >
               <img src="./images/p3.png" class="d-block w-100 h-100" alt="p2" />
             </div>
@@ -202,7 +195,6 @@
               data-bs-toggle="modal"
               data-bs-target="#exampleModal"
               data-title="MM Clinic Website"
-              data-body="it is website for the MM Clinic,it is recently working on it"
             >
               <img src="./images/p4.png" class="d-block w-100 h-100" alt="p3" />
             </div>
@@ -211,10 +203,7 @@
               data-bs-toggle="modal"
               data-bs-target="#exampleModal"
               data-title="DIS Website"
-              data-body="it is website for the DIS company that include one-page website with an additional team 
-              profile page and a dedicated admin dashboard for easy management. The admin will have the 
-              ability to update, add, or remove team members and website content directly from the 
-              dashboard, ensuring flexibility and ease of use,it is recently working on it"
+           
             >
               <img src="./images/p1.png" class="d-block w-100 h-100" alt="p4" />
             </div>
@@ -278,7 +267,7 @@
     </section>
 
     <!-- contact -->
-    <section id="contact" class="s4">
+  <section id="contact" class="s4">
       <div class="container-xxl py-5 border-top border-1 border-dark">
         <h1>Contact Us :</h1>
         <div class="container">
@@ -287,76 +276,70 @@
               <img style="margin: 10px;" class="w-100 h-100" src="./images/s3.jpg" />
             </div>
             <div class="col">
-              <form netlify name="contact" method="POST"
-              class="col-12 d-flex flex-column justify-content-center text-dark mb-5 mt-5" 
-              action="mailto:mohamedmortagalol@gmail.com" 
-              method="POST" 
-              enctype="text/plain"
-            >
+              <form class="col-12 d-flex flex-column justify-content-center text-dark  mb-5 mt-5">
                 <div class="form-floating w-100 mb-3">
-                    <input
-                        type="text"
-                        class="form-control w-100"
-                        id="name"
-                        name="name"
-                        placeholder="Your Name"
-                        required
-                        minlength="3"
-                        maxlength="30"
-                    />
-                    <label for="name">Name</label>
+                  <input
+                    type="text"
+                    class="form-control w-100"
+                    id="name"
+                    name="name"
+                    placeholder="Your Name"
+                    required
+                    minlength="3"
+                    maxlength="30"
+                  />
+                  <label for="name">Name</label>
                 </div>
-        
+              
                 <div class="form-floating w-100 mb-3">
-                    <input
-                        type="email"
-                        class="form-control w-100"
-                        id="email"
-                        name="email"
-                        placeholder="Your Email"
-                        required
-                        minlength="3"
-                        maxlength="30"
-                    />
-                    <label for="email">Email</label>
+                  <input
+                    type="email"
+                    class="form-control w-100"
+                    id="email"
+                    name="email"
+                    placeholder="Your Email"
+                    required
+                    minlength="3"
+                    maxlength="30"
+                  />
+                  <label for="email">Email</label>
                 </div>
-        
+              
                 <div class="form-floating w-100 mb-3">
-                    <input
-                        type="text"
-                        class="form-control w-100"
-                        id="subject"
-                        name="subject"
-                        placeholder="Subject"
-                        required
-                        minlength="3"
-                        maxlength="30"
-                    />
-                    <label for="subject">Subject</label>
+                  <input
+                    type="text"
+                    class="form-control w-100"
+                    id="subject"
+                    name="subject"
+                    placeholder="Subject"
+                    required
+                    minlength="3"
+                    maxlength="30"
+                  />
+                  <label for="subject">Subject</label>
                 </div>
-        
+              
                 <div class="form-floating w-100 mb-3">
-                    <textarea
-                        class="form-control w-100"
-                        id="message"
-                        name="message"
-                        placeholder="Message"
-                        required
-                        maxlength="300"
-                        style="height: 100px; resize: none"
-                    ></textarea>
-                    <label for="message">Message</label>
+                  <textarea
+                    class="form-control w-100"
+                    id="message"
+                    name="message"
+                    placeholder="Message"
+                    required
+                    maxlength="300"
+                    style="height: 100px; resize: none"
+                  ></textarea>
+                  <label for="message">Message</label>
                 </div>
-        
-                <button action="https://formsubmit.co/mohamedmortagalol@gmail.com" method="POST"
-                    style="background-color: green; color: white; margin: 10px;" 
-                    class="btn w-25 m-auto" 
-                    type="submit"
+              
+                <button 
+                  style="background-color: green; color: white; margin: 10px;" 
+                  class="btn w-25 m-auto" 
+                  type="submit"
                 >
-                    Send
-                    <input type="hidden" name="_captcha" value="false">
+                  Send
                 </button>
-            </form>
+              </form>
             </div>
           </div>
         </div>
@@ -404,18 +387,3 @@
     <script src="./js/jsf.js"></script>
   </body>
 </html>
-<script>
-  (function() {
-    emailjs.init("YOUR_USER_ID");
-  })();
-  
-  function sendEmail(e) {
-    e.preventDefault();
-    
-    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target)
-      .then(() => alert('Message sent!'))
-      .catch(err => alert('Error: ' + err));
-  }
-  
-  document.querySelector('form').addEventListener('submit', sendEmail);
-</script>
